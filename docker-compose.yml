@@ -1,0 +1,13 @@
+services:
+  lg-app:
+    build: .\
+    ports:
+      - "4000:8000"
+    environment:
+      - PORT=8000
+      - PYTHONDONTWRITEBYTECODE=1
+      
+    
+
+
+  
